@@ -1,0 +1,189 @@
+body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.colored-section {
+    background-color:#ef8172;
+    color:#fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    padding:0;
+    padding-bottom:60px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding: 0 15px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#title {
+    padding-bottom: 50px;
+}
+
+#title-text {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 4rem;
+    padding-top: 40px;
+}
+
+.download-btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 40px 20px 0 0;
+}
+
+#iphone-dog {
+    width: 60%;
+    transform:rotate(20deg);
+    display: block;
+    position:absolute;
+    right: 20%;
+}
+
+#feature {
+    background-color: #fff;
+    position:relative;
+}
+
+.feature-box {
+    padding:40px;
+}
+
+.icon {
+    color:#ef8172;
+}
+
+.icon:hover {
+    color:#ff4c68;
+}
+
+.feature-box h3 {
+    margin: 10px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.feature-box p {
+    margin:0;
+    color:#8f8f8f;
+}
+
+#testimonials {
+    text-align: center;
+}
+
+.carousel-item {
+    padding-top: 50px;
+}
+
+#testimonials h2 {
+    font-size: 2.8rem;
+    font-family: 'IBM Plex Serif', serif;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 10%;
+    margin:20px;
+}
+
+#press {
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#press img {
+    width: 17%;
+    padding: 10px;
+}
+
+#pricing {
+    padding: 70px 100px;
+}
+
+#pricing h1 {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 3rem;    
+}
+
+#pricing p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+    margin-bottom: 40px;
+}
+
+.card-body li {
+    margin-bottom: 16px;
+    color: #8f8f8f;
+}
+
+.card {
+    margin:15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card h3 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+
+
+/**** media query ****/
+
+@media (max-width: 1200px) {
+
+    #iphone-dog {
+        width: 90%;
+        transform:rotate(0deg);
+        display: block;
+        position: static;
+        padding:0 0 0 20px;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #iphone-dog {
+        width: 70%;
+        transform:rotate(0deg);
+        display: block;
+        position: static;
+        padding:40px 0 30px 20px;
+        margin:0 auto;
+    }
+
+    #title-text {
+        font-size:3.5rem;
+        padding-top: 0;
+    }
+
+    #text-coloumn {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #title {
+        padding-bottom: 0;
+    }
+
+}
+
+
