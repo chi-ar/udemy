@@ -7,6 +7,11 @@ body {
     color:#fff;
 }
 
+.white-section {
+    background-color: #fff;
+    color:black;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -51,7 +56,6 @@ body {
 }
 
 #feature {
-    background-color: #fff;
     position:relative;
 }
 
@@ -76,7 +80,6 @@ body {
 
 .feature-box p {
     margin:0;
-    color:#8f8f8f;
 }
 
 #testimonials {
@@ -123,7 +126,6 @@ body {
 
 #pricing p {
     font-family: 'Montserrat', sans-serif;
-    color: #8f8f8f;
     margin-bottom: 40px;
 }
 
@@ -141,7 +143,22 @@ body {
     font-family: 'IBM Plex Serif', serif;
 }
 
+#cta div {
+    padding: 5% 15%;
+}
 
+p {
+    color: #8f8f8f;
+    padding: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+footer p {
+    margin-bottom: 0;;
+}
 
 
 /**** media query ****/
